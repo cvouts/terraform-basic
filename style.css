@@ -11,8 +11,22 @@ body {
   margin: 1rem;
 }
 
+ul {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+li {
+  padding-left: 10px;
+}
+
 h1 {
   font-size: 4rem;
+  padding-bottom: 10px;
+}
+
+h2 {
+  padding-bottom: 10px;
 }
 
 h1,
@@ -24,45 +38,13 @@ img.logo {
   width: 4rem;
 }
 
-.strike {
-    text-decoration: line-through;
-}
-
-.art-title {
-  font-style: italic;
-}
-
-.username {
-  padding: 0.2rem;
-  background-color: #f1f1f1;
-  font-family: monospace, monospace;
-  line-height: 1rem;
-}
-
 .username a,
 .username a:visited {
   color: #222;
   text-decoration: none;
 }
 
-.username a:hover {
-  text-decoration: underline;
-}
-
 a,
 a:visited {
   color: #009a64;
-}
-@media only screen and (max-device-width: 480px) {
-  h1 {
-    font-size: 3rem;
-  }
-  .username {
-    background-color: initial;
-  }
-}
-
-.video {
-  display: flex;
-  justify-content: center;
 }
